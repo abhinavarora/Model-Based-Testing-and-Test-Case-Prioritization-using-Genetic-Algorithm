@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="actor.cpp" />
+		<Unit filename="actor.h" />
+		<Unit filename="actorbuilder.cpp" />
+		<Unit filename="actorbuilder.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="message.cpp" />
+		<Unit filename="message.h" />
 		<Unit filename="test.xml" />
 		<Unit filename="tinystr.cpp" />
 		<Unit filename="tinystr.h" />
