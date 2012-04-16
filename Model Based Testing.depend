@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1334602113 source:c:\users\abhinav\desktop\btp\model based testing\main.cpp
+	"tinyxml.h"
+	<iostream>
+	<string>
+	<vector>
+
+1324464428 source:c:\users\abhinav\desktop\btp\model based testing\tinystr.cpp
+	"tinystr.h"
+
+1324464428 c:\users\abhinav\desktop\btp\model based testing\tinystr.h
+	<assert.h>
+	<string.h>
+
+1334601368 source:c:\users\abhinav\desktop\btp\model based testing\tinyxml.cpp
+	<ctype.h>
+	<vector>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1334601472 c:\users\abhinav\desktop\btp\model based testing\tinyxml.h
+	<vector>
+	<string>
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1324464428 source:c:\users\abhinav\desktop\btp\model based testing\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1324464428 source:c:\users\abhinav\desktop\btp\model based testing\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+

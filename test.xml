@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model name="untitled" xmi:id="bMqbpeSAKAk0Jipy" xmi:version="2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exportedFromDifferentName="false" xmi:Exporter="Visual Paradigm for UML" xmi:ExporterVersion="6.5.0"/>
+	<packagedElement xmi:type="uml:Collaboration">
+		<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+			<dummyModel value="true"/>
+		</xmi:Extension>
+		<ownedBehavior name="college" xmi:id="heLY3mSGAqACAgPi" xmi:type="uml:Interaction">
+			<lifeline name="Student" represents="4jw43mSGAqACAgSU_represents" xmi:id="4jw43mSGAqACAgSU" xmi:type="uml:Lifeline">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<active xmi:value="false"/>
+					<stopped xmi:value="false"/>
+					<multiObject xmi:value="false"/>
+					<actor isAbstract="false" isLeaf="false" visibility="public">
+						<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+							<isRoot xmi:value="false"/>
+						</xmi:Extension>
+						<businessModel xmi:value="false"/>
+					</actor>
+				</xmi:Extension>
+			</lifeline>
+			<message messageSort="synchCall" name="message1()" receiveEvent="M7k43mSGAqACAgX5" sendEvent="M7k43mSGAqACAgX4" xmi:id="E7k43mSGAqACAgX2" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="1"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="get4()" receiveEvent="YYi.WWSGAqACAhN5" sendEvent="YYi.WWSGAqACAhN4" xmi:id="YYi.WWSGAqACAhN3" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="10"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="return4" receiveEvent="0py.WWSGAqACAhOS" sendEvent="0py.WWSGAqACAhOR" xmi:id="0py.WWSGAqACAhOQ" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="11"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnB" receiveEvent="546.WWSGAqACAhPV" sendEvent="546.WWSGAqACAhPU" xmi:id="546.WWSGAqACAhPT" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="12"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="get5()" receiveEvent="2C1.WWSGAqACAheG" sendEvent="2C1.WWSGAqACAheF" xmi:id="2C1.WWSGAqACAheE" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="13"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="return5" receiveEvent="cod.WWSGAqACAhef" sendEvent="cod.WWSGAqACAhee" xmi:id="cod.WWSGAqACAhed" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="14"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnC" receiveEvent="Uqn.WWSGAqACAhjJ" sendEvent="Uqn.WWSGAqACAhjI" xmi:id="kqn.WWSGAqACAhjH" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="15"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="message3()" receiveEvent="HYoBWWSGAqACAhlM" sendEvent="HYoBWWSGAqACAhlL" xmi:id="HYoBWWSGAqACAhlK" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="16"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="message4()" receiveEvent="WIEBWWSGAqACAhll" sendEvent="WIEBWWSGAqACAhlk" xmi:id="WIEBWWSGAqACAhlj" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<type xmi:value="self"/>
+					<number xmi:value="17"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnD" receiveEvent="n20BWWSGAqACAhl9" sendEvent="n20BWWSGAqACAhl8" xmi:id="n20BWWSGAqACAhl7" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="18"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnE" receiveEvent="TusBWWSGAqACAhmW" sendEvent="TusBWWSGAqACAhmV" xmi:id="TusBWWSGAqACAhmU" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="19"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="get1()" receiveEvent="ncDuWWSGAqACAgQc" sendEvent="ncDuWWSGAqACAgQb" xmi:id="ncDuWWSGAqACAgQa" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="2"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="message5()" receiveEvent="5YyBWWSGAqACAhmv" sendEvent="5YyBWWSGAqACAhmu" xmi:id="5YyBWWSGAqACAhmt" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<type xmi:value="self"/>
+					<number xmi:value="20"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnF" receiveEvent="nQqBWWSGAqACAhnH" sendEvent="nQqBWWSGAqACAhnG" xmi:id="nQqBWWSGAqACAhnF" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="21"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnG" receiveEvent="_VaBWWSGAqACAhng" sendEvent="fVaBWWSGAqACAhnf" xmi:id="fVaBWWSGAqACAhne" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="22"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="return1" receiveEvent="aM6eWWSGAqACAglM" sendEvent="aM6eWWSGAqACAglL" xmi:id="aM6eWWSGAqACAglK" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="3"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="get2()" receiveEvent="TFoeWWSGAqACAgbl" sendEvent="TFoeWWSGAqACAgbk" xmi:id="TFoeWWSGAqACAgbj" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="4"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="return2" receiveEvent="A..eWWSGAqACAgxB" sendEvent="_e.eWWSGAqACAgxA" xmi:id="_e.eWWSGAqACAgw_" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="5"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="message2()" receiveEvent="WV8eWWSGAqACAgcu" sendEvent="WV8eWWSGAqACAgct" xmi:id="WV8eWWSGAqACAgcs" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="6"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="synchCall" name="get3()" receiveEvent="aLReWWSGAqACAgxb" sendEvent="qLReWWSGAqACAgxa" xmi:id="qLReWWSGAqACAgxZ" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="7"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="return3" receiveEvent="sapeWWSGAqACAgx1" sendEvent="sapeWWSGAqACAgx0" xmi:id="MapeWWSGAqACAgxz" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="8"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<message messageSort="reply" name="returnA" receiveEvent="ozFeWWSGAqACAgyP" sendEvent="ozFeWWSGAqACAgyO" xmi:id="ozFeWWSGAqACAgyN" xmi:type="uml:Message">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<number xmi:value="9"/>
+					<asynshronous xmi:value="false"/>
+				</xmi:Extension>
+			</message>
+			<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="E7k43mSGAqACAgX2" xmi:id="M7k43mSGAqACAgX4" xmi:type="uml:MessageOccurrenceSpecification"/>
+			<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="E7k43mSGAqACAgX2" xmi:id="M7k43mSGAqACAgX5" xmi:type="uml:MessageOccurrenceSpecification"/>
+			<ownedAttribute name="Student" xmi:id="4jw43mSGAqACAgSU_represents"/>
+			<lifeline name="Teacher" represents="XoI43mSGAqACAgS4_represents" xmi:id="XoI43mSGAqACAgS4" xmi:type="uml:Lifeline">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<active xmi:value="false"/>
+					<stopped xmi:value="false"/>
+					<multiObject xmi:value="false"/>
+					<actor isAbstract="false" isLeaf="false" visibility="public">
+						<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+							<isRoot xmi:value="false"/>
+						</xmi:Extension>
+						<businessModel xmi:value="false"/>
+					</actor>
+				</xmi:Extension>
+			</lifeline>
+			<ownedAttribute name="Teacher" xmi:id="XoI43mSGAqACAgS4_represents"/>
+			<lifeline name="Department" represents="qnuuWWSGAqACAgJl_represents" xmi:id="qnuuWWSGAqACAgJl" xmi:type="uml:Lifeline">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<active xmi:value="false"/>
+					<stopped xmi:value="false"/>
+					<multiObject xmi:value="false"/>
+					<actor isAbstract="false" isLeaf="false" visibility="public">
+						<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+							<isRoot xmi:value="false"/>
+						</xmi:Extension>
+						<businessModel xmi:value="false"/>
+					</actor>
+				</xmi:Extension>
+			</lifeline>
+			<ownedAttribute name="Department" xmi:id="qnuuWWSGAqACAgJl_represents"/>
+			<fragment covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" interactionOperator="loop" name="Loop" xmi:id="xYNuWWSGAqACAgOi" xmi:type="uml:CombinedFragment">
+				<operand covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" name="Operand" xmi:id="S4NuWWSGAqACAgOo" xmi:type="uml:InteractionOperand">
+					<guard name="InteractionConstraint" xmi:id="pLtuWWSGAqACAgQH" xmi:type="uml:InteractionConstraint">
+						<specification value="Loop" xmi:id="pLtuWWSGAqACAgQH_constraint" xmi:type="uml:LiteralString"/>
+					</guard>
+					<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+						<message xmi:value="aM6eWWSGAqACAglK"/>
+						<message xmi:value="_e.eWWSGAqACAgw_"/>
+						<message xmi:value="MapeWWSGAqACAgxz"/>
+						<message xmi:value="0py.WWSGAqACAhOQ"/>
+						<message xmi:value="cod.WWSGAqACAhed"/>
+						<message xmi:value="ncDuWWSGAqACAgQa"/>
+						<message xmi:value="TFoeWWSGAqACAgbj"/>
+						<message xmi:value="WV8eWWSGAqACAgcs"/>
+						<message xmi:value="qLReWWSGAqACAgxZ"/>
+						<message xmi:value="YYi.WWSGAqACAhN3"/>
+						<message xmi:value="546.WWSGAqACAhPT"/>
+						<message xmi:value="2C1.WWSGAqACAheE"/>
+						<message xmi:value="kqn.WWSGAqACAhjH"/>
+						<message xmi:value="ozFeWWSGAqACAgyN"/>
+					</xmi:Extension>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="aM6eWWSGAqACAglK" xmi:id="aM6eWWSGAqACAglL" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="aM6eWWSGAqACAglK" xmi:id="aM6eWWSGAqACAglM" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="_e.eWWSGAqACAgw_" xmi:id="_e.eWWSGAqACAgxA" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="_e.eWWSGAqACAgw_" xmi:id="A..eWWSGAqACAgxB" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="MapeWWSGAqACAgxz" xmi:id="sapeWWSGAqACAgx0" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="MapeWWSGAqACAgxz" xmi:id="sapeWWSGAqACAgx1" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="0py.WWSGAqACAhOQ" xmi:id="0py.WWSGAqACAhOR" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="0py.WWSGAqACAhOQ" xmi:id="0py.WWSGAqACAhOS" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="cod.WWSGAqACAhed" xmi:id="cod.WWSGAqACAhee" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="cod.WWSGAqACAhed" xmi:id="cod.WWSGAqACAhef" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="ncDuWWSGAqACAgQa" xmi:id="ncDuWWSGAqACAgQb" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="ncDuWWSGAqACAgQa" xmi:id="ncDuWWSGAqACAgQc" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="TFoeWWSGAqACAgbj" xmi:id="TFoeWWSGAqACAgbk" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="TFoeWWSGAqACAgbj" xmi:id="TFoeWWSGAqACAgbl" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="WV8eWWSGAqACAgcs" xmi:id="WV8eWWSGAqACAgct" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="WV8eWWSGAqACAgcs" xmi:id="WV8eWWSGAqACAgcu" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="qLReWWSGAqACAgxZ" xmi:id="qLReWWSGAqACAgxa" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="qLReWWSGAqACAgxZ" xmi:id="aLReWWSGAqACAgxb" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="YYi.WWSGAqACAhN3" xmi:id="YYi.WWSGAqACAhN4" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="YYi.WWSGAqACAhN3" xmi:id="YYi.WWSGAqACAhN5" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="546.WWSGAqACAhPT" xmi:id="546.WWSGAqACAhPU" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="546.WWSGAqACAhPT" xmi:id="546.WWSGAqACAhPV" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="2C1.WWSGAqACAheE" xmi:id="2C1.WWSGAqACAheF" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="2C1.WWSGAqACAheE" xmi:id="2C1.WWSGAqACAheG" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="kqn.WWSGAqACAhjH" xmi:id="Uqn.WWSGAqACAhjI" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="kqn.WWSGAqACAhjH" xmi:id="Uqn.WWSGAqACAhjJ" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="ozFeWWSGAqACAgyN" xmi:id="ozFeWWSGAqACAgyO" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="ozFeWWSGAqACAgyN" xmi:id="ozFeWWSGAqACAgyP" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<packagedElement covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl" interactionOperator="alt" name="" xmi:id="jQ3eWWSGAqACAg3A" xmi:type="uml:CombinedFragment">
+						<operand covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl" name="Operand" xmi:id="LQ3eWWSGAqACAg3F" xmi:type="uml:InteractionOperand">
+							<guard name="InteractionConstraint" xmi:id="C1PeWWSGAqACAg5c" xmi:type="uml:InteractionConstraint"/>
+							<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+								<message xmi:value="_e.eWWSGAqACAgw_"/>
+								<message xmi:value="MapeWWSGAqACAgxz"/>
+								<message xmi:value="TFoeWWSGAqACAgbj"/>
+								<message xmi:value="WV8eWWSGAqACAgcs"/>
+								<message xmi:value="qLReWWSGAqACAgxZ"/>
+							</xmi:Extension>
+						</operand>
+						<operand covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl" name="Operand2" xmi:id="7Q3eWWSGAqACAg3M" xmi:type="uml:InteractionOperand">
+							<guard name="InteractionConstraint" xmi:id="7Q3eWWSGAqACAg3N" xmi:type="uml:InteractionConstraint"/>
+							<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+								<message xmi:value="0py.WWSGAqACAhOQ"/>
+								<message xmi:value="YYi.WWSGAqACAhN3"/>
+							</xmi:Extension>
+						</operand>
+					</packagedElement>
+					<packagedElement covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" interactionOperator="opt" name="CombinedFragment" xmi:id="Mxp.WWSGAqACAhcO" xmi:type="uml:CombinedFragment">
+						<operand covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" name="Operand" xmi:id="8xp.WWSGAqACAhcT" xmi:type="uml:InteractionOperand">
+							<guard name="InteractionConstraint" xmi:id="8xp.WWSGAqACAhcU" xmi:type="uml:InteractionConstraint"/>
+							<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+								<message xmi:value="cod.WWSGAqACAhed"/>
+								<message xmi:value="2C1.WWSGAqACAheE"/>
+								<message xmi:value="kqn.WWSGAqACAhjH"/>
+							</xmi:Extension>
+						</operand>
+					</packagedElement>
+				</operand>
+			</fragment>
+			<fragment covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" interactionOperator="break" name="CombinedFragment" xmi:id="C_ABWWSGAqACAhjU" xmi:type="uml:CombinedFragment">
+				<operand covered="4jw43mSGAqACAgSU qnuuWWSGAqACAgJl XoI43mSGAqACAgS4" name="Operand" xmi:id="K_ABWWSGAqACAhjZ" xmi:type="uml:InteractionOperand">
+					<guard name="InteractionConstraint" xmi:id="K_ABWWSGAqACAhja" xmi:type="uml:InteractionConstraint"/>
+					<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+						<message xmi:value="n20BWWSGAqACAhl7"/>
+						<message xmi:value="nQqBWWSGAqACAhnF"/>
+						<message xmi:value="HYoBWWSGAqACAhlK"/>
+						<message xmi:value="TusBWWSGAqACAhmU"/>
+						<message xmi:value="fVaBWWSGAqACAhne"/>
+						<message xmi:value="WIEBWWSGAqACAhlj"/>
+						<message xmi:value="5YyBWWSGAqACAhmt"/>
+					</xmi:Extension>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="n20BWWSGAqACAhl7" xmi:id="n20BWWSGAqACAhl8" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="n20BWWSGAqACAhl7" xmi:id="n20BWWSGAqACAhl9" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="nQqBWWSGAqACAhnF" xmi:id="nQqBWWSGAqACAhnG" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="nQqBWWSGAqACAhnF" xmi:id="nQqBWWSGAqACAhnH" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="HYoBWWSGAqACAhlK" xmi:id="HYoBWWSGAqACAhlL" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="HYoBWWSGAqACAhlK" xmi:id="HYoBWWSGAqACAhlM" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="TusBWWSGAqACAhmU" xmi:id="TusBWWSGAqACAhmV" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="TusBWWSGAqACAhmU" xmi:id="TusBWWSGAqACAhmW" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="4jw43mSGAqACAgSU" event="defaultEventOfMessageOccurrency" message="fVaBWWSGAqACAhne" xmi:id="fVaBWWSGAqACAhnf" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="XoI43mSGAqACAgS4" event="defaultEventOfMessageOccurrency" message="fVaBWWSGAqACAhne" xmi:id="_VaBWWSGAqACAhng" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="WIEBWWSGAqACAhlj" xmi:id="WIEBWWSGAqACAhlk" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="WIEBWWSGAqACAhlj" xmi:id="WIEBWWSGAqACAhll" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="5YyBWWSGAqACAhmt" xmi:id="5YyBWWSGAqACAhmu" xmi:type="uml:MessageOccurrenceSpecification"/>
+					<fragment covered="qnuuWWSGAqACAgJl" event="defaultEventOfMessageOccurrency" message="5YyBWWSGAqACAhmt" xmi:id="5YyBWWSGAqACAhmv" xmi:type="uml:MessageOccurrenceSpecification"/>
+				</operand>
+			</fragment>
+		</ownedBehavior>
+	</packagedElement>
+	<packagedElement xmi:id="defaultEventOfMessageOccurrency" xmi:type="uml:AnyReceiveEvent"/>
+	<uml:Diagram diagramType="InteractionDiagram" documentation="" name="college" toolName="Visual Paradigm for UML" xmi:id="sOLY3mSGAqACAgPe">
+		<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+			<properties>
+				<ashowPackageNameStyle value="0"/>
+				<ashowActivityStateNodeCaption value="0"/>
+				<aeditable value="true"/>
+				<afollowDiagramParentElement value="true"/>
+				<aautoFitShapesSize value="false"/>
+				<ashowTaggedValues value="false"/>
+				<ashowStereotypes value="true"/>
+				<aalignToGrid value="true"/>
+				<agridVisible value="false"/>
+				<agridWidth value="10"/>
+				<agridHeight value="10"/>
+				<agridColor value="Cr:192,192,192,255"/>
+				<adiagramBackground value="Cr:255,255,255,255"/>
+				<aconnectorStyle value="1"/>
+				<aconnectorLineJumps value="0"/>
+				<aconnectionPointStyle value="0"/>
+				<aconnectorLabelOrientation value="0"/>
+				<amodelElementNameAlignment value="4"/>
+				<azoomRatio value="1.0"/>
+				<amaximized value="true"/>
+				<ax value="0"/>
+				<ay value="0"/>
+				<awidth value="1353"/>
+				<aheight value="623"/>
+				<a_globalPaletteOption value="true"/>
+				<a_alwaysShowReferenceAndSubdiagramResource value="false"/>
+				<alocked value="false"/>
+				<ainitializeDiagramForCreate value="true"/>
+				<ashowDefaultPackage value="false"/>
+				<ashowParameterNamesInMessageOperationSignature value="true"/>
+				<ashowArgumentsInMessagesOperationSignature value="true"/>
+				<ashowMessagesOperationSignature value="false"/>
+				<ainteractionLifeLinePresentationOption value="0"/>
+				<a_rootFrame value="heLY3mSGAqACAgPi"/>
+				<ashowSequenceNumbers value="true"/>
+				<ashowActivations value="true"/>
+				<adisplayLifeLinesAsRobustnessAnalysisIcon value="0"/>
+				<ashowMessageStereotype value="true"/>
+				<asequenceNumberHandling value="0"/>
+				<a_requestRecalculateSequenceNumbers value="false"/>
+			</properties>
+		</xmi:Extension>
+		<uml:Diagram.element>
+			<uml:DiagramElement geometry="270,40,60,950" preferredShapeType="InteractionActor" subject="4jw43mSGAqACAgSU" xmi:id="ojw43mSGAqACAgST">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="271,75,58,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="22"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<aparentFrame value="heLY3mSGAqACAgPi"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="100,40,60,950" preferredShapeType="InteractionActor" subject="XoI43mSGAqACAgS4" xmi:id="XoI43mSGAqACAgS3">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="100,75,61,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="20"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<aparentFrame value="heLY3mSGAqACAgPi"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="134,110;296,110;" preferredShapeType="Message" subject="E7k43mSGAqACAgX2" xmi:id="s7k43mSGAqACAgX6">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="170,90,91,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="460,40,70,950" preferredShapeType="InteractionActor" subject="qnuuWWSGAqACAgJl" xmi:id="qnuuWWSGAqACAgJk">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="456,75,78,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="18"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+						<aparentFrame value="heLY3mSGAqACAgPi"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="90,130,470,580" preferredShapeType="CombinedFragment" subject="xYNuWWSGAqACAgOi" xmi:id="xYNuWWSGAqACAgOh">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,34,18"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,0"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="16"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,0" color2="" style="1" transparency="100" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="90,148,470,562" preferredShapeType="InteractionOperand" subject="S4NuWWSGAqACAgOo" xmi:id="S4NuWWSGAqACAgOn">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="110,148,430,562"/>
+					<captionVisible value="false"/>
+					<captionSide value="7"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="14"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="260,230,270,330" preferredShapeType="CombinedFragment" subject="jQ3eWWSGAqACAg3A" xmi:id="jQ3eWWSGAqACAg2_">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,23,18"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,0"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="0"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+					<parentDiagramElement idref="S4NuWWSGAqACAgOn"/>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,0" color2="" style="1" transparency="100" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="110,580,420,110" preferredShapeType="CombinedFragment" subject="Mxp.WWSGAqACAhcO" xmi:id="Mxp.WWSGAqACAhcN">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,28,18"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,0"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="4"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+					<parentDiagramElement idref="S4NuWWSGAqACAgOn"/>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,0" color2="" style="1" transparency="100" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,160;491,160;" preferredShapeType="Message" subject="ncDuWWSGAqACAgQa" xmi:id="ncDuWWSGAqACAgQd">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="360,140,61,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,250;491,250;" preferredShapeType="Message" subject="TFoeWWSGAqACAgbj" xmi:id="TFoeWWSGAqACAgbm">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="360,230,61,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,320;491,320;" preferredShapeType="Message" subject="WV8eWWSGAqACAgcs" xmi:id="WV8eWWSGAqACAgcv">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="350,300,91,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,200;304,200;" preferredShapeType="Message" subject="aM6eWWSGAqACAglK" xmi:id="aM6eWWSGAqACAglN">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="361,180,68,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,280;304,280;" preferredShapeType="Message" subject="_e.eWWSGAqACAgw_" xmi:id="A..eWWSGAqACAgxC">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="362,260,68,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,350;491,350;" preferredShapeType="Message" subject="qLReWWSGAqACAgxZ" xmi:id="aLReWWSGAqACAgxc">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="366,330,61,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,380;304,380;" preferredShapeType="Message" subject="MapeWWSGAqACAgxz" xmi:id="sapeWWSGAqACAgx2">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="362,360,68,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,420;134,420;" preferredShapeType="Message" subject="ozFeWWSGAqACAgyN" xmi:id="ozFeWWSGAqACAgyQ">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="269,400,69,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="260,248,270,190" preferredShapeType="InteractionOperand" subject="LQ3eWWSGAqACAg3F" xmi:id="LQ3eWWSGAqACAg3E">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="260,258,270,190"/>
+					<captionVisible value="false"/>
+					<captionSide value="7"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="12"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="260,438,270,122" preferredShapeType="InteractionOperand" subject="7Q3eWWSGAqACAg3M" xmi:id="7Q3eWWSGAqACAg3L">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="260,448,270,122"/>
+					<captionVisible value="false"/>
+					<captionSide value="7"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="10"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,470;491,470;" preferredShapeType="Message" subject="YYi.WWSGAqACAhN3" xmi:id="YYi.WWSGAqACAhN6">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="365,450,68,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,500;304,500;" preferredShapeType="Message" subject="0py.WWSGAqACAhOQ" xmi:id="0py.WWSGAqACAhOT">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="362,480,74,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="296,540;134,540;" preferredShapeType="Message" subject="546.WWSGAqACAhPT" xmi:id="546.WWSGAqACAhPW">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="172,520,75,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="110,598,420,92" preferredShapeType="InteractionOperand" subject="8xp.WWSGAqACAhcT" xmi:id="8xp.WWSGAqACAhcS">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="260,598,270,92"/>
+					<captionVisible value="false"/>
+					<captionSide value="7"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="2"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,610;491,610;" preferredShapeType="Message" subject="2C1.WWSGAqACAheE" xmi:id="2C1.WWSGAqACAheH">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="365,590,68,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,640;304,640;" preferredShapeType="Message" subject="cod.WWSGAqACAhed" xmi:id="cod.WWSGAqACAheg">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="362,620,74,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="296,670;134,670;" preferredShapeType="Message" subject="kqn.WWSGAqACAhjH" xmi:id="Uqn.WWSGAqACAhjK">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="179,650,76,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="110,740,440,200" preferredShapeType="CombinedFragment" subject="C_ABWWSGAqACAhjU" xmi:id="C_ABWWSGAqACAhjT">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,40,18"/>
+					<captionVisible value="true"/>
+					<captionSide value="12"/>
+					<properties>
+						<abackground value="Cr:122,207,245,0"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="8"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,0" color2="" style="1" transparency="100" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="110,758,440,182" preferredShapeType="InteractionOperand" subject="K_ABWWSGAqACAhjZ" xmi:id="K_ABWWSGAqACAhjY">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="0,0,20,50"/>
+					<captionVisible value="false"/>
+					<captionSide value="7"/>
+					<properties>
+						<abackground value="Cr:122,207,245,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="6"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<adisplayStereotypeIcon value="false"/>
+						<aoverrideAppearanceWithStereotypeIcon value="true"/>
+						<arequestSetSizeOption value="0"/>
+						<aparentConnectorHeaderLength value="40"/>
+						<aparentConnectorLineLength value="10"/>
+						<aconnectToPoint value="true"/>
+						<aparentConnectorDTheta value="0.0"/>
+						<aconnectionPointType value="2"/>
+						<amodelElementNameAlignment value="9"/>
+						<arequestDefaultSize value="false"/>
+						<arequestFitSize value="false"/>
+						<arequestFitSizeFromCenter value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFill color1="Cr:122,207,245,255" color2="" style="1" transparency="0" type="1"/>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="304,780;491,780;" preferredShapeType="Message" subject="HYoBWWSGAqACAhlK" xmi:id="HYoBWWSGAqACAhlN">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="350,760,97,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="499,800;520,800;520,820;499,820;" preferredShapeType="Message" subject="WIEBWWSGAqACAhlj" xmi:id="WIEBWWSGAqACAhlm">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="520,800,97,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,830;304,830;" preferredShapeType="Message" subject="n20BWWSGAqACAhl7" xmi:id="n20BWWSGAqACAhl.">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="361,810,76,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="296,850;134,850;" preferredShapeType="Message" subject="TusBWWSGAqACAhmU" xmi:id="TusBWWSGAqACAhmX">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="172,830,75,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="499,860;520,860;520,880;499,880;" preferredShapeType="Message" subject="5YyBWWSGAqACAhmt" xmi:id="5YyBWWSGAqACAhmw">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="520,860,97,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="491,900;304,900;" preferredShapeType="Message" subject="nQqBWWSGAqACAhnF" xmi:id="nQqBWWSGAqACAhnI">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="362,880,74,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+			<uml:DiagramElement geometry="296,920;134,920;" preferredShapeType="Message" subject="fVaBWWSGAqACAhne" xmi:id="_VaBWWSGAqACAhnh">
+				<xmi:Extension xmi:Extender="Visual Paradigm for UML">
+					<captionBounds value="171,900,76,15"/>
+					<captionVisible value="true"/>
+					<captionSide value="1"/>
+					<properties>
+						<abackground value="Cr:0,0,0,255"/>
+						<aforeground value="Cr:0,0,0,255"/>
+						<azOrder value="-1"/>
+						<aselectable value="true"/>
+						<arequestResetCaption value="false"/>
+						<arequestResetCaptionSize value="false"/>
+						<aconnectorStyle value="3"/>
+						<aconnectorLineJumps value="4"/>
+						<aconnectorLabelOrientation value="4"/>
+						<afromShapeXDiff value="0"/>
+						<afromShapeYDiff value="0"/>
+						<atoShapeXDiff value="0"/>
+						<atoShapeYDiff value="0"/>
+						<afromConnectType value="0"/>
+						<atoConnectType value="0"/>
+						<auseFromShapeCenter value="true"/>
+						<auseToShapeCenter value="true"/>
+						<afromPinType value="1"/>
+						<atoPinType value="1"/>
+						<arequestRebuild value="false"/>
+						<afolded value="false"/>
+					</properties>
+				</xmi:Extension>
+				<elementFont bold="false" color="Cr:0,0,0,255" italic="false" name="Dialog" size="11" style="0"/>
+				<elementLine color="Cr:0,0,0,255" style="1" transparency="0" weight="1.0"/>
+			</uml:DiagramElement>
+		</uml:Diagram.element>
+	</uml:Diagram>
+</uml:Model>
