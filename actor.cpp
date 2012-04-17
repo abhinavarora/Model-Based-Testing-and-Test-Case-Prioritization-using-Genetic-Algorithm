@@ -1,5 +1,5 @@
 #include "actor.h"
-#include<string>
+#include<sstream>
 #include<iostream>
 using namespace std;
 Actor::Actor(int num, string name, string id)
@@ -42,10 +42,13 @@ void Actor::setID(string id)
 string Actor::toString()
 {
     string sb="Actor Details - ";
-    sb.append("Number: " + getNum());
+    sb.append("Number: ");
+    ostringstream temp;
+    temp<<this->getNum();
+    sb.append(temp.str());
     sb.append(", ");
-    sb.append("Name:" + getName());
+    sb.append("Name:" + this->getName());
     sb.append(", ");
-    sb.append("Id:" + getID());
+    sb.append("Id:" + this->getID());
     return sb;
 }

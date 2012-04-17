@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1334603132 source:c:\users\abhinav\desktop\btp\model based testing\main.cpp
+1334642906 source:c:\users\abhinav\desktop\btp\model based testing\main.cpp
 	"tinyxml.h"
+	"actorbuilder.h"
+	"actor.h"
 	<iostream>
 	<string>
 	<vector>
@@ -57,7 +59,7 @@
 1334610667 c:\users\abhinav\desktop\btp\model based testing\message.h
 	<string>
 
-1334613679 source:c:\users\abhinav\desktop\btp\model based testing\actorbuilder.cpp
+1334642981 source:c:\users\abhinav\desktop\btp\model based testing\actorbuilder.cpp
 	"actorbuilder.h"
 	"actor.h"
 	"tinyxml.h"

@@ -1,4 +1,6 @@
 #include "tinyxml.h"
+#include "actorbuilder.h"
+#include "actor.h"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -22,10 +24,12 @@ int main(int argc, char* argv[])
 	}
 //TiXmlElement* elem = root->FirstChildElement()->NextSiblingElement();
 //cout<<elem->Attribute("att");
-vector<TiXmlElement*> list;
-list=root->GetElementsByTagName("message",list);
+vector<Actor> list;
+ActorBuilder acb;
+acb.build(list,root);
+//list=root->GetElementsByTagName("message",list);
 for(int i=0;i<list.size();i++)
-    cout<<list[i]->Attribute("xmi:id")<<endl;
+    cout<<list[i].toString()<<endl;
 //getchar();
 return 0;
 }

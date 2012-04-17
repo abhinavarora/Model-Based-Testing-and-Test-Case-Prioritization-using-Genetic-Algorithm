@@ -8,7 +8,8 @@ using namespace std;
 
 void ActorBuilder::build(vector<Actor>& actorList, TiXmlElement* docEle)
 {
-    vector<TiXmlElement*> act=docEle->GetElementsByTagName("lifeline",act);
+    vector<TiXmlElement*> act;
+    act=docEle->GetElementsByTagName("lifeline",act);
     if(act.size()>0)
     {
         for(int i = 0 ; i<act.size() ; i++)
