@@ -24,6 +24,11 @@ Message::Message(const Message& another)
 //    this->frag = another.frag;
 }
 
+bool Message::operator < (const Message& temp) const
+{
+    return ((this->getNum()) < (temp.getNum()));
+}
+
 /*
 CombinedFragment Message::getfrag()
 {
@@ -36,7 +41,7 @@ string Message::getID()
     return this->xmi_id;
 }
 
-int Message::getNum()
+int Message::getNum() const
 {
     return this->num;
 }

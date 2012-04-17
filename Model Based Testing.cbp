@@ -39,6 +39,8 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="message.cpp" />
 		<Unit filename="message.h" />
+		<Unit filename="messagebuilder.cpp" />
+		<Unit filename="messagebuilder.h" />
 		<Unit filename="test.xml" />
 		<Unit filename="tinystr.cpp" />
 		<Unit filename="tinystr.h" />

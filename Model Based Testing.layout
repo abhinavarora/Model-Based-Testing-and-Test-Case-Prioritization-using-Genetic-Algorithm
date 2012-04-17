@@ -2,18 +2,33 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
 	<File name="actor.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="80" topLine="0" />
+		<Cursor position="36" topLine="31" />
 	</File>
-	<File name="actor.h" open="1" top="0" tabpos="4">
-		<Cursor position="72" topLine="0" />
+	<File name="actor.h" open="1" top="0" tabpos="8">
+		<Cursor position="110" topLine="0" />
+	</File>
+	<File name="actorbuilder.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="445" topLine="7" />
+	</File>
+	<File name="actorbuilder.h" open="0" top="0" tabpos="0">
+		<Cursor position="280" topLine="0" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="639" topLine="6" />
+		<Cursor position="748" topLine="10" />
 	</File>
-	<File name="message.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="366" topLine="0" />
+	<File name="message.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="719" topLine="12" />
 	</File>
-	<File name="message.h" open="0" top="0" tabpos="0">
-		<Cursor position="222" topLine="0" />
+	<File name="message.h" open="1" top="0" tabpos="4">
+		<Cursor position="76" topLine="0" />
+	</File>
+	<File name="messagebuilder.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="653" topLine="6" />
+	</File>
+	<File name="messagebuilder.h" open="1" top="0" tabpos="5">
+		<Cursor position="347" topLine="0" />
+	</File>
+	<File name="test.xml" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

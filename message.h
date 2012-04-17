@@ -8,9 +8,10 @@ class Message
         /** Default constructor */
         Message(int,string,string,string,string,int);
         Message(const Message&);
+        bool operator < (const Message&) const;
 //        CombinedFragment getFrag();
         string getID();
-        int getNum();
+        int getNum() const;
         int getType();
         string getName();
         string getFrom();
