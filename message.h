@@ -6,6 +6,7 @@ class Message
 {
     public:
         /** Default constructor */
+        Message();
         Message(int,string,string,string,string,int);
         Message(const Message&);
         bool operator < (const Message&) const;

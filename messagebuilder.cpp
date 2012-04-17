@@ -5,6 +5,7 @@
 #include "tinyxml.h"
 #include "message.h"
 #include "actor.h"
+#include "node.h"
 #include<iostream>
 void MessageBuilder::build(vector<Actor>& actorList, vector<Message>& msgList,TiXmlElement* docEle)
 {
@@ -13,7 +14,7 @@ void MessageBuilder::build(vector<Actor>& actorList, vector<Message>& msgList,Ti
     string check = string("uml:Message");
     if(msg.size()>0)
     {
-        for(int i = 0; i < msg.size(); i++)
+        for(unsigned int i = 0; i < msg.size(); i++)
         {
             if(msg[i]->Attribute("xmi:type")!=NULL && msg[i]->Attribute("xmi:type") == string("uml:Message"))
             {
@@ -37,9 +38,9 @@ Message MessageBuilder::getMsg(TiXmlElement* mes,TiXmlElement* docEle,vector<Act
     string to = this->getActorName(actorList,docEle,receiveEvent);
     string msgtype = mes->Attribute("messageSort");
     if(msgtype==string("reply"))
-        type=0;
+        type = RETURN_MESSAGE;
     else
-        type=1;
+        type = MESSAGE;
 
     vector<TiXmlElement*> n;
     n = mes->GetElementsByTagName("number",n);
@@ -56,13 +57,13 @@ string MessageBuilder::getActorName(vector<Actor>& actorList,TiXmlElement* docEl
     n = docEle->GetElementsByTagName("fragment",n);
     if(n.size()>0)
     {
-        for(int i = 0; i<n.size(); i++)
+        for(unsigned int i = 0; i<n.size(); i++)
         {
             string frag_id = n[i]->Attribute("xmi:id");
             if(frag_id==event)
             {
                 string actor_id = n[i]->Attribute("covered");
-                for(int j = 0; j<actorList.size(); j++ )
+                for(unsigned int j = 0; j<actorList.size(); j++ )
                 {
                     if(actorList[j].getID()==actor_id)
                     {

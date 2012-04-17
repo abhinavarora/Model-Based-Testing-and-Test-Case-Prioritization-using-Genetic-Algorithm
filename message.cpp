@@ -2,6 +2,12 @@
 #include<string>
 #include<iostream>
 using namespace std;
+
+Message::Message()
+{
+
+}
+
 Message::Message(int num,string xmi_id,string name,string from, string to,int type)
 {
     this->num = num;

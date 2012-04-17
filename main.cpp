@@ -35,7 +35,10 @@ MessageBuilder mb;
 mb.build(list,mlist,root);
 cout<<mlist.size();
 for(int i=0;i<mlist.size();i++,cout<<endl)
-    mlist[i].display();
+  {
+     mlist[i].display();
+     cout<<mlist[i].getType()<<endl;
+  }
 //getchar();
 return 0;
 }
