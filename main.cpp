@@ -29,12 +29,12 @@ vector<Message> mlist;
 ActorBuilder acb;
 acb.build(list,root);
 //list=root->GetElementsByTagName("message",list);
-for(int i=0;i<list.size();i++)
+for(unsigned int i=0;i<list.size();i++)
     cout<<list[i].toString()<<endl<<endl;
 MessageBuilder mb;
 mb.build(list,mlist,root);
 cout<<mlist.size();
-for(int i=0;i<mlist.size();i++,cout<<endl)
+for(unsigned int i=0;i<mlist.size();i++,cout<<endl)
   {
      mlist[i].display();
      cout<<mlist[i].getType()<<endl;
