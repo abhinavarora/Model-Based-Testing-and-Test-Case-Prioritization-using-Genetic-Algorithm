@@ -2,6 +2,7 @@
 #define MESSAGE_H
 #include<string>
 using namespace std;
+class CombinedFragment;
 class Message
 {
     public:
@@ -10,7 +11,7 @@ class Message
         Message(int,string,string,string,string,int);
         Message(const Message&);
         bool operator < (const Message&) const;
-//        CombinedFragment getFrag();
+        CombinedFragment getFrag();
         string getID();
         int getNum() const;
         int getType();
@@ -23,7 +24,7 @@ class Message
         void setName(string);
         void setNum(int);
         void setType(int);
-//        void setFrag(CombinedFragment);
+        void setFrag(CombinedFragment*);
         void display();
     private:
         int num;
@@ -32,7 +33,7 @@ class Message
         string from;
         string to;
         int type;
-//        CombinedFragment frag;
+        CombinedFragment* frag;
 };
 
 #endif // MESSAGE_H

@@ -56,7 +56,7 @@
 	<string>
 	<iostream>
 
-1334699204 c:\users\abhinav\desktop\btp\model based testing\message.h
+1334866285 c:\users\abhinav\desktop\btp\model based testing\message.h
 	<string>
 
 1334642981 source:c:\users\abhinav\desktop\btp\model based testing\actorbuilder.cpp
@@ -97,12 +97,15 @@
 1334865392 c:\users\abhinav\desktop\btp\model based testing\node.h
 	"message.h"
 
-1334858562 source:c:\users\abhinav\desktop\btp\model based testing\sequencediagram.cpp
+1334865666 source:c:\users\abhinav\desktop\btp\model based testing\sequencediagram.cpp
 	"sequencediagram.h"
+	<iostream>
 	<string>
 	<vector>
 	"node.h"
 	"actor.h"
+	"message.h"
+	"combinedfragment.h"
 
 1334865105 c:\users\abhinav\desktop\btp\model based testing\sequencediagram.h
 	<string>

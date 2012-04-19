@@ -1,8 +1,9 @@
 #include "message.h"
 #include<string>
 #include<iostream>
+#include "combinedfragment.h"
 using namespace std;
-
+class CombinedFragment;
 Message::Message()
 {
 
@@ -16,7 +17,6 @@ Message::Message(int num,string xmi_id,string name,string from, string to,int ty
     this->name = name;
     this->xmi_id = xmi_id;
     this->type = type;
-//    this->frag = null;
 }
 
 Message::Message(const Message& another)
@@ -27,7 +27,7 @@ Message::Message(const Message& another)
     this->to = another.to;
     this->name = another.name;
     this->type = another.type;
-//    this->frag = another.frag;
+    this->frag = another.frag;
 }
 
 bool Message::operator < (const Message& temp) const
@@ -35,12 +35,12 @@ bool Message::operator < (const Message& temp) const
     return ((this->getNum()) < (temp.getNum()));
 }
 
-/*
-CombinedFragment Message::getfrag()
+
+CombinedFragment Message::getFrag()
 {
-    return this->frag;
+    return *(this->frag);
     }
-*/
+
 
 string Message::getID()
 {
@@ -103,12 +103,12 @@ void Message::setType(int type)
     this->type=type;
 }
 
-/*
-void Message::setFrag(CombinedFragment frag)
+
+void Message::setFrag(CombinedFragment* frag)
 {
     this->frag=frag;
 }
-*/
+
 
 void Message::display()
 {
