@@ -433,6 +433,7 @@ public:
 
 **/
    const std::vector<TiXmlElement*> GetElementsByTagName(std::string ,std::vector<TiXmlElement*>& list);
+   const std::vector<TiXmlElement*> GetChildNodes(std::vector<TiXmlElement*>& list);
 	#ifdef TIXML_USE_STL
 
 	    /** An input stream operator, for every class. Tolerant of newlines and

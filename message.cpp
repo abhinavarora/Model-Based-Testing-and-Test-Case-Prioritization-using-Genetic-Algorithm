@@ -17,6 +17,7 @@ Message::Message(int num,string xmi_id,string name,string from, string to,int ty
     this->name = name;
     this->xmi_id = xmi_id;
     this->type = type;
+    this->frag = NULL;
 }
 
 Message::Message(const Message& another)

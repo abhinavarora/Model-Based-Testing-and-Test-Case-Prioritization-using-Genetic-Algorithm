@@ -14,14 +14,14 @@
 	<assert.h>
 	<string.h>
 
-1334601368 source:c:\users\abhinav\desktop\btp\model based testing\tinyxml.cpp
+1334871246 source:c:\users\abhinav\desktop\btp\model based testing\tinyxml.cpp
 	<ctype.h>
 	<vector>
 	<sstream>
 	<iostream>
 	"tinyxml.h"
 
-1334601472 c:\users\abhinav\desktop\btp\model based testing\tinyxml.h
+1334870387 c:\users\abhinav\desktop\btp\model based testing\tinyxml.h
 	<vector>
 	<string>
 	<ctype.h>
@@ -51,10 +51,11 @@
 1334607295 c:\users\abhinav\desktop\btp\model based testing\actor.h
 	<string>
 
-1334699203 source:c:\users\abhinav\desktop\btp\model based testing\message.cpp
+1334867929 source:c:\users\abhinav\desktop\btp\model based testing\message.cpp
 	"message.h"
 	<string>
 	<iostream>
+	"combinedfragment.h"
 
 1334866285 c:\users\abhinav\desktop\btp\model based testing\message.h
 	<string>
@@ -72,7 +73,7 @@
 	"actor.h"
 	<vector>
 
-1334698513 source:c:\users\abhinav\desktop\btp\model based testing\messagebuilder.cpp
+1334868795 source:c:\users\abhinav\desktop\btp\model based testing\messagebuilder.cpp
 	"messagebuilder.h"
 	<vector>
 	<algorithm>
@@ -123,4 +124,17 @@
 	<string>
 	<vector>
 	"sequencediagram.h"
+
+1334869523 source:c:\users\abhinav\desktop\btp\model based testing\combinedfragmentbuilder.cpp
+	"combinedfragmentbuilder.h"
+	"node.h"
+	<conio.h>
+	<iostream>
+
+1334868370 c:\users\abhinav\desktop\btp\model based testing\combinedfragmentbuilder.h
+	"combinedfragment.h"
+	"message.h"
+	"tinyxml.h"
+	<vector>
+	<string>
 

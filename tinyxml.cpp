@@ -511,7 +511,7 @@ const std::vector<TiXmlElement*> TiXmlNode::GetElementsByTagName(std::string s ,
 {
     if(!this)
         return list;
-    TiXmlElement* fchild=this->FirstChildElement();
+    /*TiXmlElement* fchild=this->FirstChildElement();
     if(fchild!=NULL && fchild->Value()==s)
         list.push_back(fchild);
     fchild->GetElementsByTagName(s,list);
@@ -520,8 +520,30 @@ const std::vector<TiXmlElement*> TiXmlNode::GetElementsByTagName(std::string s ,
        list.push_back(nchild);
     nchild->GetElementsByTagName(s,list);
     return list;
+    */
+    std::vector<TiXmlElement*> children;
+    children = this->GetChildNodes(children);
+    for(unsigned int i =0 ; i < children.size(); i++)
+    {
+        if(children[i]!=NULL && children[i]->Value()==s)
+            list.push_back(children[i]);
+        children[i]->GetElementsByTagName(s,list);
     }
+    return list;
+}
 
+const std::vector<TiXmlElement*> TiXmlNode::GetChildNodes(std::vector<TiXmlElement*>& list)
+{
+    if(!this)
+        return list;
+    TiXmlElement* child=this->FirstChildElement();
+    while(child!=NULL)
+    {
+        list.push_back(child);
+        child = child->NextSiblingElement();
+    }
+    return list;
+}
 const TiXmlDocument* TiXmlNode::GetDocument() const
 {
 	const TiXmlNode* node;
