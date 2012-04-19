@@ -90,10 +90,11 @@
 	"message.h"
 	"actor.h"
 
-1334699266 source:c:\users\abhinav\desktop\btp\model based testing\node.cpp
+1334865567 source:c:\users\abhinav\desktop\btp\model based testing\node.cpp
 	"node.h"
+	"combinedfragment.h"
 
-1334699290 c:\users\abhinav\desktop\btp\model based testing\node.h
+1334865392 c:\users\abhinav\desktop\btp\model based testing\node.h
 	"message.h"
 
 1334858562 source:c:\users\abhinav\desktop\btp\model based testing\sequencediagram.cpp
@@ -103,9 +104,20 @@
 	"node.h"
 	"actor.h"
 
-1334857794 c:\users\abhinav\desktop\btp\model based testing\sequencediagram.h
+1334865105 c:\users\abhinav\desktop\btp\model based testing\sequencediagram.h
 	<string>
 	<vector>
 	"node.h"
 	"actor.h"
+
+1334862872 source:c:\users\abhinav\desktop\btp\model based testing\combinedfragment.cpp
+	"combinedfragment.h"
+	<string>
+	<vector>
+	<iostream>
+
+1334864587 c:\users\abhinav\desktop\btp\model based testing\combinedfragment.h
+	<string>
+	<vector>
+	"sequencediagram.h"
 

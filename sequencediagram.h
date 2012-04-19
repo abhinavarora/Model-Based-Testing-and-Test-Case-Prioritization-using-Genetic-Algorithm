@@ -5,6 +5,7 @@
 #include "node.h"
 #include "actor.h"
 using namespace std;
+
 class SequenceDiagram
 {
     public:

@@ -7,23 +7,25 @@
 #define ALT 3
 #define OPT 4
 #define BREAK 5
+class CombinedFragment;
 class Node
 {
     public:
 
+        Node();
         Node(int,Message);
-//        Node(int,CombinedFragment);
+        Node(int,CombinedFragment *);
         int getType();
         void setType(int);
         Message getmFrag();
         void setmFrag(Message);
-//        CombinedFragment getcFrag();
-  //      void setcFrag(CombinedFragment);
+        CombinedFragment getcFrag();
+        void setcFrag(CombinedFragment*);
 
     private:
         int type;
         Message mfrag;
-//        CombinedFragment cfrag;
+        CombinedFragment* cfrag;
 };
 
 #endif // NODE_H
