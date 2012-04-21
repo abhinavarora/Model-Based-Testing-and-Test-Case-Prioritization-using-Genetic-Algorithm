@@ -28,6 +28,16 @@ CombinedFragment::CombinedFragment(string condition, int noOfNodes)
     this->noOfNodes.push_back(noOfNodes);
 }
 
+bool CombinedFragment::operator == (const CombinedFragment& temp) const
+{
+    return ((this->getCondition())==(temp.getCondition()) && (this->getNoOfNodes())==(temp.getNoOfNodes()));
+}
+
+bool CombinedFragment::operator != (const CombinedFragment& temp) const
+{
+    return ((this->getCondition())!=(temp.getCondition()) || (this->getNoOfNodes())!=(temp.getNoOfNodes()));
+}
+
 void CombinedFragment::display()
 {
     cout<<"[CombinedFragment]"<<endl;
@@ -78,12 +88,12 @@ int CombinedFragment::getNoOfNodes(int index)
     return (this->noOfNodes)[index];
 }
 
-string CombinedFragment::getCondition()
+string CombinedFragment::getCondition() const
 {
     return (this->condition)[0];
 }
 
-int CombinedFragment::getNoOfNodes()
+int CombinedFragment::getNoOfNodes() const
 {
     return (this->noOfNodes)[0];
 }

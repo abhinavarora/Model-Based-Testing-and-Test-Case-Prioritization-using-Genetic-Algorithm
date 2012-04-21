@@ -36,6 +36,10 @@
 		<Unit filename="actor.h" />
 		<Unit filename="actorbuilder.cpp" />
 		<Unit filename="actorbuilder.h" />
+		<Unit filename="combinedfragment.cpp" />
+		<Unit filename="combinedfragment.h" />
+		<Unit filename="combinedfragmentbuilder.cpp" />
+		<Unit filename="combinedfragmentbuilder.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="message.cpp" />
 		<Unit filename="message.h" />
@@ -43,6 +47,8 @@
 		<Unit filename="messagebuilder.h" />
 		<Unit filename="node.cpp" />
 		<Unit filename="node.h" />
+		<Unit filename="sequencediagram.cpp" />
+		<Unit filename="sequencediagram.h" />
 		<Unit filename="test.xml" />
 		<Unit filename="tinystr.cpp" />
 		<Unit filename="tinystr.h" />

@@ -11,11 +11,12 @@ class CombinedFragmentBuilder
         /** Default constructor */
         CombinedFragmentBuilder();
         CombinedFragment build(TiXmlElement *, vector<Message>);
-        int addMsgNodes(CombinedFragment);
-        int addNestedFrag(CombinedFragment);
-        void setGuardCondition(TiXmlElement* ,CombinedFragment);
+        int addMsgNodes(CombinedFragment&);
+        int addNestedFrag(CombinedFragment&);
+        void setGuardCondition(TiXmlElement* ,CombinedFragment&);
+        vector<Message> createNestedMsg(CombinedFragment&,vector<Message>,vector<TiXmlElement*>);
         void createNestedFrag(vector<Message>, vector<TiXmlElement *>);
-        Message getMsg(string,vector<Message>,CombinedFragment);
+        Message getMsg(string,vector<Message>,CombinedFragment&);
     private:
         vector<CombinedFragment> nestedFrag;
         vector<Message> nestedMsg;

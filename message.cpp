@@ -39,8 +39,14 @@ bool Message::operator < (const Message& temp) const
 
 CombinedFragment Message::getFrag()
 {
-    return *(this->frag);
+    if(this->frag!=NULL)
+        return *(this->frag);
+    else
+    {
+        CombinedFragment cf_null(string(""),-1);
+        return cf_null;
     }
+}
 
 
 string Message::getID()

@@ -16,6 +16,7 @@ class SequenceDiagram
         vector<Actor> getActorList();
         void display();
         vector<Node> getStartNode();
+        void push_seq(Node);
     protected:
         vector<Node> seq;
     private:

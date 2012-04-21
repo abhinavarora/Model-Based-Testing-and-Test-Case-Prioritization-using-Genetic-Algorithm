@@ -44,7 +44,13 @@ void Node::setmFrag(Message frag)
 
 CombinedFragment Node::getcFrag()
 {
-    return *(this->cfrag);
+    if(this->cfrag!=NULL)
+        return *(this->cfrag);
+    else
+    {
+     CombinedFragment cf_null(string(""),-1);
+     return cf_null;
+    }
 }
 
 void Node::setcFrag(CombinedFragment* frag)
