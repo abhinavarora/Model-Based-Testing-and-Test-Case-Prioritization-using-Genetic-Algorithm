@@ -6,6 +6,7 @@
 #include "actor.h"
 #include "message.h"
 #include "combinedfragment.h"
+#include "sequencediagrambuilder.h"
 using namespace std;
 SequenceDiagram::SequenceDiagram()
 {
@@ -21,8 +22,8 @@ SequenceDiagram::SequenceDiagram(string inputFile)
 {
     this->seq = vector<Node>();
     this->actorList = vector<Actor>();
-//    SequenceDiagramBuilder sdb = SequenceDiagramBuilder(inputFile);
-//    sdb.build(this);
+    SequenceDiagramBuilder sdb = SequenceDiagramBuilder(inputFile);
+    sdb.build(*this);
 }
 
 vector<Actor> SequenceDiagram::getActorList()
