@@ -6,13 +6,18 @@
 #include<iostream>
 using namespace std;
 
+ActorBuilder::ActorBuilder()
+{
+
+}
+
 void ActorBuilder::build(vector<Actor>& actorList, TiXmlElement* docEle)
 {
     vector<TiXmlElement*> act;
     act=docEle->GetElementsByTagName("lifeline",act);
     if(act.size()>0)
     {
-        for(int i = 0 ; i<act.size() ; i++)
+        for(unsigned int i = 0 ; i<act.size() ; i++)
         {
                 Actor a = getActor(i+1,act[i]);
                 actorList.push_back(a);

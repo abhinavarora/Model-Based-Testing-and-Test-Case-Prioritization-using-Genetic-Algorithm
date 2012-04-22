@@ -63,7 +63,7 @@
 1334866285 c:\users\abhinav\desktop\btp\model based testing\message.h
 	<string>
 
-1334642981 source:c:\users\abhinav\desktop\btp\model based testing\actorbuilder.cpp
+1335042340 source:c:\users\abhinav\desktop\btp\model based testing\actorbuilder.cpp
 	"actorbuilder.h"
 	"actor.h"
 	"tinyxml.h"
@@ -71,7 +71,7 @@
 	<string>
 	<iostream>
 
-1334612499 c:\users\abhinav\desktop\btp\model based testing\actorbuilder.h
+1335042291 c:\users\abhinav\desktop\btp\model based testing\actorbuilder.h
 	"tinyxml.h"
 	"actor.h"
 	<vector>
@@ -140,5 +140,18 @@
 	"message.h"
 	"tinyxml.h"
 	<vector>
+	<string>
+
+1335087404 source:c:\users\abhinav\desktop\btp\model based testing\sequencediagrambuilder.cpp
+	"sequencediagrambuilder.h"
+	"actorbuilder.h"
+	"messagebuilder.h"
+	"combinedfragmentbuilder.h"
+	"node.h"
+	<iostream>
+
+1335041040 c:\users\abhinav\desktop\btp\model based testing\sequencediagrambuilder.h
+	"tinyxml.h"
+	"sequencediagram.h"
 	<string>
 

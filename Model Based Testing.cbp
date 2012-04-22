@@ -49,6 +49,8 @@
 		<Unit filename="node.h" />
 		<Unit filename="sequencediagram.cpp" />
 		<Unit filename="sequencediagram.h" />
+		<Unit filename="sequencediagrambuilder.cpp" />
+		<Unit filename="sequencediagrambuilder.h" />
 		<Unit filename="test.xml" />
 		<Unit filename="tinystr.cpp" />
 		<Unit filename="tinystr.h" />

@@ -7,6 +7,7 @@ using namespace std;
 class ActorBuilder
 {
     public:
+            ActorBuilder();
             void build(vector<Actor>& ,TiXmlElement*);
     private:
             Actor getActor(int,TiXmlElement*);
