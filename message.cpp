@@ -6,7 +6,7 @@ using namespace std;
 class CombinedFragment;
 Message::Message()
 {
-
+    this->frag = NULL;
 }
 
 Message::Message(int num,string xmi_id,string name,string from, string to,int type)
@@ -48,6 +48,10 @@ CombinedFragment Message::getFrag()
     }
 }
 
+CombinedFragment* Message::getFragP()
+{
+    return (this->frag);
+}
 
 string Message::getID()
 {
@@ -119,5 +123,5 @@ void Message::setFrag(CombinedFragment* frag)
 
 void Message::display()
 {
-    cout<<"[Message ID: "<<this->num<<" | Name: "<<this->name<<" | From: "<<this->from<<" | To: "<<this->to<<"]";
+    cout<<"[Message ID: "<<this->num<<" | Name: "<<this->name<<" | From: "<<this->from<<" | To: "<<this->to<<"]"<<endl;
 }

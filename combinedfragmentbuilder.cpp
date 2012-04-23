@@ -8,7 +8,7 @@ CombinedFragmentBuilder::CombinedFragmentBuilder()
     //ctor
 }
 
-CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<Message> msgList)
+CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<Message>& msgList)
 {
     int nm,nf;
     CombinedFragment cf;
@@ -38,13 +38,13 @@ CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<
             {
             this->setGuardCondition(ele_frag,cf);
 
-            TiXmlElement *ch = ele_frag->FirstChildElement()->NextSiblingElement();
+            TiXmlElement *ch = ele_frag->FirstChildElement();
             vector<TiXmlElement*> nl;
             nl = ch->GetChildNodes(nl);
             this->createNestedFrag(msgList,nl);
             this->nestedMsg = this->createNestedMsg(cf,msgList,nl);
 
-            nm = this->addMsgNodes(cf);
+            nm = this->addMsgNodes(cf,msgList);
             nf = this->addNestedFrag(cf);
 
             cf.setNoOfNodes(nm + nf);
@@ -64,8 +64,7 @@ CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<
 
                     this->createNestedFrag(msgList,n2);
                     this->nestedMsg = this->createNestedMsg(cf,msgList,n2);
-
-                    nm = this->addMsgNodes(cf);
+                    nm = this->addMsgNodes(cf,msgList);
                     nf = this->addNestedFrag(cf);
 
                     cf.setNoOfNodes(nm + nf);
@@ -75,27 +74,39 @@ CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<
             }
 
     }
+
     return cf;
 }
 
-int CombinedFragmentBuilder::addMsgNodes(CombinedFragment& cf)
+int CombinedFragmentBuilder::addMsgNodes(CombinedFragment& cf,vector<Message>& msgList)
 {
     int nm = 0;
     CombinedFragment cf_null(string(""),-1);
+    CombinedFragment *t = new CombinedFragment();
+    *t = cf;
     for(unsigned int k = 0; k<(this->nestedMsg).size(); k++)
     {
-        if((this->nestedMsg)[k].getFrag()==cf_null)
+        if(Message_List[(this->nestedMsg)[k].getID()]==NULL)
         {
             Node temp((this->nestedMsg)[k].getType(),(this->nestedMsg)[k]);
             cf.push_seq(temp);
-            CombinedFragment *t = new CombinedFragment();
-            *t = cf;
             (this->nestedMsg)[k].setFrag(t);
+            Message_List[(this->nestedMsg)[k].getID()] = t;
             nm++;
+            string xmi_id = t->getID();
+            for(unsigned int j =0; j<msgList.size(); j++)
+            {
+                if(msgList[j].getID()== xmi_id)
+                {
+                    msgList[j].setFrag(t);
+                    break;
+                }
+            }
         }
     }
     return nm;
 }
+
 
 int CombinedFragmentBuilder::addNestedFrag(CombinedFragment& cf)
 {
@@ -125,7 +136,7 @@ void CombinedFragmentBuilder::setGuardCondition(TiXmlElement *ele_frag, Combined
     }
 }
 
-vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,vector<Message> msgList,vector<TiXmlElement*> nl)
+vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,vector<Message>& msgList,vector<TiXmlElement*> nl)
 {
     int nm = 0;
     vector<Message> temp;
@@ -149,7 +160,7 @@ vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,ve
     return temp;
 }
 
-void CombinedFragmentBuilder::createNestedFrag(vector<Message> msgList, vector<TiXmlElement*> nl)
+void CombinedFragmentBuilder::createNestedFrag(vector<Message>& msgList, vector<TiXmlElement*> nl)
 {
     for(unsigned int i = 0; i<nl.size(); i++)
     {
@@ -164,7 +175,7 @@ void CombinedFragmentBuilder::createNestedFrag(vector<Message> msgList, vector<T
     }
 }
 
-Message CombinedFragmentBuilder::getMsg(string xmi_id, vector<Message> msgList, CombinedFragment& cf)
+Message CombinedFragmentBuilder::getMsg(string xmi_id, vector<Message>& msgList, CombinedFragment& cf)
 {
     int index;
     for(unsigned int i = 0; i < msgList.size(); i++)

@@ -4,7 +4,6 @@
 #include "combinedfragmentbuilder.h"
 #include "node.h"
 #include <iostream>
-
 using namespace std;
 
 SequenceDiagramBuilder::SequenceDiagramBuilder(string inputFile)
@@ -34,6 +33,10 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
 
     MessageBuilder mb;
     mb.build(actorList,msgList,(this->docEle));
+    for(unsigned int i =0; i<msgList.size();i++)
+    {
+      Message_List[msgList[i].getID()] = NULL;
+    }
 
     vector<CombinedFragment> fragList;
     vector<TiXmlElement*> ele_fragList;
@@ -54,15 +57,15 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
 
     vector<TiXmlElement*> nl;
     nl = (this->docEle)->GetElementsByTagName("uml:DiagramElement",nl);
-
     for(unsigned int i=0; i<nl.size(); i++)
     {
         if(nl[i]->Attribute("preferredShapeType")!= NULL && nl[i]->Attribute("preferredShapeType") == string("Message"))
         {
             for(unsigned int j =0; j<msgList.size(); j++)
             {
-                if(nl[i]->Attribute("subject")!= NULL && nl[i]->Attribute("subject") == msgList[j].getID() && msgList[j].getFrag()==cf_null)
+                if(nl[i]->Attribute("subject")!= NULL && nl[i]->Attribute("subject") == msgList[j].getID() && Message_List[msgList[j].getID()]==NULL)
                 {
+              //      cout<<"00--"<<nl[i]->Attribute("subject")<<"--"<<msgList[j].getID()<<endl;
                     Node temp(msgList[j].getType(),msgList[j]);
                     sd.push_seq(temp);
                 }
@@ -75,6 +78,7 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
             {
                 if(nl[i]->Attribute("subject")!= NULL && nl[i]->Attribute("subject") == fragList[j].getID())
                 {
+              //      cout<<"11"<<endl;
                     CombinedFragment *tem = new CombinedFragment;
                     *tem = fragList[j];
                     Node temp(tem->getType(),tem);

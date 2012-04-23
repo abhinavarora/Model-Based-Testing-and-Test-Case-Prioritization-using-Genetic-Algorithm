@@ -12,6 +12,7 @@ class Message
         Message(const Message&);
         bool operator < (const Message&) const;
         CombinedFragment getFrag();
+        CombinedFragment* getFragP();
         string getID();
         int getNum() const;
         int getType();

@@ -3,6 +3,8 @@
 #include "tinyxml.h"
 #include "sequencediagram.h"
 #include<string>
+#include<map>
+extern map<string,CombinedFragment*>  Message_List;
 class SequenceDiagramBuilder
 {
     public:
