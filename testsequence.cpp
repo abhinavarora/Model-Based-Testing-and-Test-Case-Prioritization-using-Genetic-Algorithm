@@ -9,7 +9,7 @@ TestSequence::TestSequence()
     this->priority = 0;
 }
 
-TestSequence::TestSequence(TestSequence& another)
+TestSequence::TestSequence(const TestSequence& another)
 {
     //copy ctor
     this->message = another.getTestSequence();
@@ -42,7 +42,7 @@ int TestSequence::compareTo(TestSequence ts)
         return k;
 }
 
-int TestSequence::getPriority()
+int TestSequence::getPriority() const
 {
     return (this->priority);
 }
@@ -72,7 +72,7 @@ Message TestSequence::getLastMessage()
     return (this->message)[(this->message).size() -1];
 }
 
-vector<Message> TestSequence::getTestSequence()
+vector<Message> TestSequence::getTestSequence() const
 {
     return this->message;
 }
@@ -81,4 +81,9 @@ void TestSequence::appendSequence(TestSequence ts)
 {
     vector<Message> temp = ts.getTestSequence();
     (this->message).insert((this->message).end(), temp.begin(), temp.end());
+}
+
+bool TestSequence::operator < (const TestSequence& temp) const
+{
+    return((this->getPriority()) > temp.getPriority());
 }

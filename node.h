@@ -13,15 +13,16 @@ class Node
     public:
 
         Node();
+        Node& operator= (const Node& another);
         Node(int,Message);
         Node(int,CombinedFragment *);
-        int getType();
+        int getType() const;
         void setType(int);
-        Message getmFrag();
+        Message getmFrag()const;
         void setmFrag(Message);
         CombinedFragment getcFrag();
         void setcFrag(CombinedFragment*);
-
+        CombinedFragment* getcFragP()const;
     private:
         int type;
         Message mfrag;

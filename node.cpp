@@ -3,8 +3,24 @@
 class CombinedFragment;
 Node::Node()
 {
-
+    this->cfrag = NULL;
 }
+
+
+Node& Node:: operator =(const Node& another)
+{
+    this->type = another.getType();
+    this->mfrag = another.getmFrag();
+    CombinedFragment* temp = another.getcFragP();
+    CombinedFragment *ptr = NULL;
+    if(temp!=NULL)
+    {
+        ptr = new CombinedFragment(*temp);
+    }
+    (this->cfrag) = ptr;
+    return *this;
+}
+
 Node::Node(int type,Message frag)
 {
         this->type = type;
@@ -20,7 +36,7 @@ Node::Node(int type,CombinedFragment* frag)
 }
 
 
-int Node::getType()
+int Node::getType() const
 {
     return this->type;
 }
@@ -30,7 +46,7 @@ void Node::setType(int type)
     this->type = type;
 }
 
-Message Node::getmFrag()
+Message Node::getmFrag() const
 {
     return this->mfrag;
 }
@@ -58,3 +74,7 @@ void Node::setcFrag(CombinedFragment* frag)
     this->cfrag = frag;
 }
 
+CombinedFragment* Node::getcFragP() const
+{
+    return this->cfrag;
+}

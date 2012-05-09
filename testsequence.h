@@ -16,22 +16,24 @@ class TestSequence
         /** Copy constructor
          *  \param other Object to copy from
          */
-        TestSequence(TestSequence&);
+        TestSequence(const TestSequence&);
+        bool operator < (const TestSequence&) const;
         void display();
         int getLength();
         int compareTo(TestSequence);
-        int getPriority();
+        int getPriority() const;
         void setPriority(int);
         void incrementPriority(int);
         void decrementPriority(int);
         void addMessage(Message);
         Message getLastMessage();
-        vector<Message> getTestSequence();
+        vector<Message> getTestSequence() const;
         void appendSequence(TestSequence);
 
     private:
         vector<Message> message;
         int priority;
+
 };
 
 #endif // TESTSEQUENCE_H

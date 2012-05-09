@@ -51,7 +51,11 @@
 		<Unit filename="sequencediagram.h" />
 		<Unit filename="sequencediagrambuilder.cpp" />
 		<Unit filename="sequencediagrambuilder.h" />
+		<Unit filename="sequencediagramtester.cpp" />
+		<Unit filename="sequencediagramtester.h" />
 		<Unit filename="test.xml" />
+		<Unit filename="testsequence.cpp" />
+		<Unit filename="testsequence.h" />
 		<Unit filename="tinystr.cpp" />
 		<Unit filename="tinystr.h" />
 		<Unit filename="tinyxml.cpp" />
