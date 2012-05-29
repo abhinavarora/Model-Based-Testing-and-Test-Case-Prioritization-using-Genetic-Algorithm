@@ -65,7 +65,6 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
             {
                 if(nl[i]->Attribute("subject")!= NULL && nl[i]->Attribute("subject") == msgList[j].getID() && Message_List[msgList[j].getID()]==NULL)
                 {
-              //      cout<<"00--"<<nl[i]->Attribute("subject")<<"--"<<msgList[j].getID()<<endl;
                     Node temp(msgList[j].getType(),msgList[j]);
                     sd.push_seq(temp);
                 }
@@ -78,7 +77,6 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
             {
                 if(nl[i]->Attribute("subject")!= NULL && nl[i]->Attribute("subject") == fragList[j].getID())
                 {
-              //      cout<<"11"<<endl;
                     CombinedFragment *tem = new CombinedFragment;
                     *tem = fragList[j];
                     Node temp(tem->getType(),tem);
@@ -87,5 +85,8 @@ void SequenceDiagramBuilder::build(SequenceDiagram& sd)
             }
         }
     }
+    /*for (map<string, int>::const_iterator i = Partitions.begin(); i != Partitions.end(); ++i)
+    cout << i->first << ": " << i->second << endl;*/
+    cout<<"asddfd "<<fragList.size()<<endl;;
 
 }

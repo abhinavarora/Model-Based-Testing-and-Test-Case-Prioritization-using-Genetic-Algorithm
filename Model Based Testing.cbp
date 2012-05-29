@@ -36,10 +36,17 @@
 		<Unit filename="actor.h" />
 		<Unit filename="actorbuilder.cpp" />
 		<Unit filename="actorbuilder.h" />
+		<Unit filename="chromosome.cpp" />
+		<Unit filename="chromosome.h" />
+		<Unit filename="chromosomebuilder.cpp" />
+		<Unit filename="chromosomebuilder.h" />
+		<Unit filename="chromosomegenerator.h" />
 		<Unit filename="combinedfragment.cpp" />
 		<Unit filename="combinedfragment.h" />
 		<Unit filename="combinedfragmentbuilder.cpp" />
 		<Unit filename="combinedfragmentbuilder.h" />
+		<Unit filename="geneticalgorithm.cpp" />
+		<Unit filename="geneticalgorithm.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="message.cpp" />
 		<Unit filename="message.h" />

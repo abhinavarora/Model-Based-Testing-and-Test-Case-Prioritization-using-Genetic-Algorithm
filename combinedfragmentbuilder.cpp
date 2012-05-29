@@ -42,7 +42,7 @@ CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<
             vector<TiXmlElement*> nl;
             nl = ch->GetChildNodes(nl);
             this->createNestedFrag(msgList,nl);
-            this->nestedMsg = this->createNestedMsg(cf,msgList,nl);
+            this->nestedMsg = this->createNestedMsg(cf,msgList,nl,1);
 
             nm = this->addMsgNodes(cf,msgList);
             nf = this->addNestedFrag(cf);
@@ -54,16 +54,18 @@ CombinedFragment CombinedFragmentBuilder::build(TiXmlElement * ele_frag, vector<
             {
             vector<TiXmlElement*> n1;
             n1 = ele_frag->GetChildNodes(n1);
-            for(unsigned int i = 0; i<n1.size(); i++)
+            int count =0;
+            for(unsigned int i = 0;i<n1.size(); i++)
             {
                 if(n1[i]->Value()!=NULL && n1[i]->Value()== string("operand"))
                 {
+                    count++;
                     this->setGuardCondition(n1[i],cf);
                     vector<TiXmlElement*> n2;
                     n2 = n1[i]->GetChildNodes(n2);
 
                     this->createNestedFrag(msgList,n2);
-                    this->nestedMsg = this->createNestedMsg(cf,msgList,n2);
+                    this->nestedMsg = this->createNestedMsg(cf,msgList,n2,count);
                     nm = this->addMsgNodes(cf,msgList);
                     nf = this->addNestedFrag(cf);
 
@@ -136,7 +138,7 @@ void CombinedFragmentBuilder::setGuardCondition(TiXmlElement *ele_frag, Combined
     }
 }
 
-vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,vector<Message>& msgList,vector<TiXmlElement*> nl)
+vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,vector<Message>& msgList,vector<TiXmlElement*> nl,int count)
 {
     int nm = 0;
     vector<Message> temp;
@@ -152,6 +154,11 @@ vector<Message> CombinedFragmentBuilder::createNestedMsg(CombinedFragment& cf,ve
             {
                 string xmi_id = n2[j]->Attribute("xmi:value");
                 Message tm = this->getMsg(xmi_id,msgList,cf);
+                if(!Partitions[tm.getID()])
+                {
+                    Partitions[tm.getID()] = count;
+//                    cout<<tm.getName()<<"---"<<Partitions[tm.getID()]<<endl;
+                }
                 temp.push_back(tm);
             }
             sort(temp.begin(),temp.end());

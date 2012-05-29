@@ -14,6 +14,8 @@ TestSequence::TestSequence(const TestSequence& another)
     //copy ctor
     this->message = another.getTestSequence();
     this->priority = another.getPriority();
+    this->conditions = another.getConditions();
+    this->number = another.getNum();
 }
 
 void TestSequence::display()
@@ -86,4 +88,34 @@ void TestSequence::appendSequence(TestSequence ts)
 bool TestSequence::operator < (const TestSequence& temp) const
 {
     return((this->getPriority()) > temp.getPriority());
+}
+
+map<string,int> TestSequence::getConditions() const
+{
+    return this->conditions;
+}
+
+void TestSequence::evalConditions()
+{
+    for(unsigned int i=0; i<(this->message).size(); i++)
+    {
+        string m_id = (this->message)[i].getID();
+        if(!Message_List[m_id])
+            continue;
+        string c_id = Message_List[m_id]->getID();
+        int part = Partitions[m_id];
+        ostringstream temp;
+        temp<<part;
+        (this->conditions)[c_id+temp.str()] = 1;
+    }
+}
+
+int TestSequence::getNum() const
+{
+    return this->number;
+}
+
+void TestSequence::setNum(int num)
+{
+    this->number = num;
 }

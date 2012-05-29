@@ -7,6 +7,7 @@
 #include<string>
 #include<map>
 extern map<string,CombinedFragment*>  Message_List;
+extern map<string,int> Partitions;
 class CombinedFragmentBuilder
 {
     public:
@@ -16,7 +17,7 @@ class CombinedFragmentBuilder
         int addMsgNodes(CombinedFragment&,vector<Message>&);
         int addNestedFrag(CombinedFragment&);
         void setGuardCondition(TiXmlElement* ,CombinedFragment&);
-        vector<Message> createNestedMsg(CombinedFragment&,vector<Message>&,vector<TiXmlElement*>);
+        vector<Message> createNestedMsg(CombinedFragment&,vector<Message>&,vector<TiXmlElement*>,int);
         void createNestedFrag(vector<Message>&, vector<TiXmlElement *>);
         Message getMsg(string,vector<Message>&,CombinedFragment&);
     private:

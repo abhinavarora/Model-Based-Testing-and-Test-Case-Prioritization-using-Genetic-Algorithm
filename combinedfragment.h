@@ -28,12 +28,14 @@ class CombinedFragment : public SequenceDiagram
         void setNoOfNodes(int);
         void addNewPartition(string,int);
         void addNewPartition(int);
+        int getCount();
 
     private:
         vector<string> condition;
         vector<int> noOfNodes;
         int type;
         string xmi_id;
+        int condition_count;
 
 };
 

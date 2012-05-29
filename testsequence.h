@@ -7,7 +7,14 @@
 #define OPT_PRI 6
 #define BREAK_PRI 12
 #include "message.h"
+#include "combinedfragment.h"
 #include<vector>
+#include<map>
+#include<sstream>
+extern map<string,CombinedFragment*>  Message_List;
+extern map<string,int>  Partitions;
+extern map<string,int> Num_Part;
+extern vector<string> SeqD_conditions;
 class TestSequence
 {
     public:
@@ -29,10 +36,16 @@ class TestSequence
         Message getLastMessage();
         vector<Message> getTestSequence() const;
         void appendSequence(TestSequence);
+        map<string,int> getConditions() const;
+        void evalConditions();
+        void setNum(int);
+        int getNum() const;
 
     private:
         vector<Message> message;
         int priority;
+        map<string,int> conditions;
+        int number;
 
 };
 

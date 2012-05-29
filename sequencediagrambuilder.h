@@ -5,6 +5,7 @@
 #include<string>
 #include<map>
 extern map<string,CombinedFragment*>  Message_List;
+extern map<string,int>  Partitions;
 class SequenceDiagramBuilder
 {
     public:

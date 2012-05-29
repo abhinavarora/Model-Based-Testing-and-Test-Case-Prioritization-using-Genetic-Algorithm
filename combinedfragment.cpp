@@ -128,3 +128,8 @@ void CombinedFragment::addNewPartition(int noOfNodes)
 {
     (this->noOfNodes).push_back(noOfNodes);
 }
+
+int CombinedFragment::getCount()
+{
+    return (this->condition).size();
+}
