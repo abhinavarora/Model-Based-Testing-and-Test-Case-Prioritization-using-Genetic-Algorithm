@@ -1,1 +1,3 @@
-Model Based testing and Test Case Prioritization using Genetic Algorithms
+## Model Based testing and Test Case Prioritization using Genetic Algorithm
+
+
