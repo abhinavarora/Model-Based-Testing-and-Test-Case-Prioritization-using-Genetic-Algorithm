@@ -4,6 +4,8 @@ Model Based Testing is a technique that helps shift this important phase of the 
 
 This work aims to extend the technique of Model Based Testing to assign priorities to test cases, so generated from various UML (2.0) diagrams,according to their significance or probability of detecting a bug. These test cases are prioritized using Genetic Algorithm technique.
 
+The given source code is of a command line tool which generates test cases from sequence diagrams automatically and prioritizes them according to their importance during the actual testing process using Genetic Algorothm for prioritizing them.
+
 ## License
 
 The MIT License (MIT)
